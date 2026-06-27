@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+}
+nav {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+h1 {
+    background-color: black;
+    color: white;
+    align-items: center;
+}
