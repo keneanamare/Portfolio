@@ -1,27 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
     <title>Home</title>
-</head>
-<body>
-    <div class="">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="skills.html">Skills</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+  </head>
+  <body>
+    <!-- navigation section  -->
+    <div class="navigation-wrapper">
+      <a href="#home" class="logo">PERSONAL PORTIFOLIO</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <div class="auth-buttons">
+          <button class="git-btn Git-btn" id="gitBtn">
+            <a href="https://github.com/keneanamare/">Git Hub</a>
+          </button>
+        </div>
+      </ul>
     </div>
-    <header>
-        <h1>Hi there , I'm Kenean Amare</h1>
-        <p>Electrical & Electronics Engineering Student | Software Engineering Student | Developer | Aspiring Cybersecurity Professional</p>
-    </header>
+
+    <!-- home section  -->
+    <section id="home" class="home">
+      <div class="home-content">
+        <h1>Hi I'm Kenean Amare</h1>
+        <h2>Software Engineering Student & Web Developer</h2>
+        <p class="highlight">
+          I build modern websites and software while studying Software
+          Engineering and Electrical & Electronics Engineering.
+        </p>
+        <a href="#contact" class="cta-button">let's connect</a>
+      </div>
+      <div class="home-image">
+        <img src="./Images/KK007 .jpg" alt="profile" class="profile-img" />
+      </div>
+    </section>
+
+    <!-- footer section  -->
     <footer>
-        <p>&copy; 2026 Kenean Amare. All Rights Reserved.</p>
+      <p>&copy; 2026 Kenean Amare. Built with HTML & CSS.</p>
     </footer>
-</body>
+
+    <!-- script link  -->
+    <script src="Js/java.js"></script>
+  </body>
 </html>
