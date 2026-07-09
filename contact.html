@@ -1,33 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link in font awesome cdn to insert social media icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
     <title>Contact</title>
-</head>
-<body>
-    <div class="">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="skills.html">Skills</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+  </head>
+  <body>
+    <!-- navigation section  -->
+    <div class="navigation-wrapper">
+      <a href="#home" class="logo">PERSONAL PORTIFOLIO</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <div class="auth-buttons">
+          <button class="git-btn Git-btn" id="gitBtn">
+            <a href="https://github.com/keneanamare/">Git Hub</a>
+          </button>
+        </div>
+      </ul>
     </div>
-    <section>
-        <h1>📫 Connect With Me</h1>
-        <ul>
-            <li>GitHub: <a href="https://github.com/keneanamare">https://github.com/keneanamare</a></li>
-            <li>Telegram: <a href="https://t.me/KK_kenean">007</a></li>
-            <li>Email: <a href="mailto:keneanamare23@gmail.com">keneanamare23</a></li>
-            <li>Phone: +251919059818</li>
-
-        </ul>
+    <section class="contact">
+      <div class="contact-content">
+        <h2 class="contact-text">📫 Connect With Me</h2>
+        <div class="cards">
+            <div class="cards contact-content">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>EMAIL</h3>
+                <p>Email: <a href="mailto:keneanamare23@gmail.com">keneanamare23@gmail.com</a></p>
+                <p>GitHub:
+            <a href="https://github.com/keneanamare/"
+              >https://github.com/keneanamare/</a
+            ></p>
+            </div>
+            <div class="cards contact-content">
+                <i class="fa-solid fa-phone"></i>
+                <h3>PHONE</h3>
+                <p>stay connected with </br>call: +251-919-059-818 </p>
+            </div>
+            <div class="cards contact-content">
+                <i class="fa-solid fa-photo-film"></i>
+                <h3>Social Media</h3>
+                <p>Tiktok: <a href="https://tiktok.com/kenny.00797/">Kenny_007</a> </br>Telegram: <a href="https://t.me/KK_kenean">007</a></p>
+            </div>
+      </div>
     </section>
     <footer>
-        <p>&copy; 2026 Kenean Amare. All Rights Reserved.</p>
+      <p>&copy; 2026 Kenean Amare. All Rights Reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
